@@ -5,13 +5,13 @@ Dependences
 
 It may work with older versions, but the more recent, the safer.
 
-+ Gcc 4.8.1 (C++11 compatibility)
-+ CImg 1.5.9
-+ Eigen 3.0
-+ Suitesparse 4.4.1
-+ Tbb 4.0
-+ Boost 1.48
-+ Cgal 4.0
+* **Gcc** 4.8.1 (C++11 compatibility)
++ **CImg** 1.5.9
++ **Eigen** 3.0
++ **Suitesparse** 4.4.1
++ **Tbb** 4.0
++ **Boost** 1.48
++ **Cgal** 4.0
 
 Construction and compilation
 ----------------------------
