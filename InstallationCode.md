@@ -1,15 +1,11 @@
-# Written by Simon Legrand on November 25th 2014
-# legrand.simon1@gmail.com
+# Installation of the voronoi_intersection code
 
+Dependences
+-----------
 
-#############
-# Dependences
-#############
+It may work with older versions, but the more recent, the safer.
 
-# It may work with older versions, but the more recent 
-# they are, the safer.
-
-Gcc 4.8.1 #compatible C++11
+Gcc 4.8.1 (C++11 compatibility)
 CImg 1.5.9
 Eigen 3.0
 Suitesparse 4.4.1
@@ -17,17 +13,16 @@ Tbb 4.0
 Boost 1.48
 Cgal 4.0
 
+Construction and compilation
+----------------------------
 
-##############################
-# Construction and compilation
-##############################
+Create a temporary folder
 
-#Create a temporary folder
-
+''' sh
 cd path/to/voronoi_intersection/
 mkdir build
 cd build
-
+'''
 # cmake may not find some librairies path by itself.
 # If it doesn't, add them as follow:
 
